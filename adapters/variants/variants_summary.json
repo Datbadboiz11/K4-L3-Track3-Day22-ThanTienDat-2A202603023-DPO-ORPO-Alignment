@@ -1,0 +1,36 @@
+{
+  "dpo": {
+    "eval_reward_accuracy": 0.63,
+    "eval_chosen_reward": 0.086394,
+    "eval_rejected_reward": 0.067694,
+    "mean_output_chars": 450.6,
+    "diagnosis": "INTENDED"
+  },
+  "rpo": {
+    "eval_reward_accuracy": 0.64,
+    "eval_chosen_reward": 0.544755,
+    "eval_rejected_reward": 0.516176,
+    "mean_output_chars": 454.4,
+    "diagnosis": "INTENDED"
+  },
+  "dpo_norm": {
+    "eval_reward_accuracy": 0.57,
+    "eval_chosen_reward": -0.178798,
+    "eval_rejected_reward": -0.18238,
+    "mean_output_chars": 453.45,
+    "diagnosis": "LIKELIHOOD DISPLACEMENT"
+  },
+  "ld_dpo": {
+    "eval_reward_accuracy": 0.56,
+    "eval_chosen_reward": -0.12804,
+    "eval_rejected_reward": -0.151692,
+    "mean_output_chars": 460.85,
+    "diagnosis": "LIKELIHOOD DISPLACEMENT"
+  },
+  "orpo": {
+    "start": "models/sft-merged",
+    "eval_reward_accuracy": 0.66,
+    "eval_log_odds_ratio": -0.624377,
+    "mean_output_chars": 446.95
+  }
+}
